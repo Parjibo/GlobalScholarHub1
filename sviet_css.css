@@ -1,0 +1,367 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.custom-navbar {
+    background-color: #ff6347; /* Custom tomato color */
+}
+.navbar{
+    background-color: blue !important;
+    padding: 35px !important;
+
+}
+
+.navbar-brand{
+
+background-color: #030303;
+padding: 20px;
+color: rgb(176, 113, 113);
+
+}
+
+.search-bar{
+
+  float: right;
+  width: 45%;
+  display: flex;
+}
+
+body {
+  padding-top: 70px; /* Adjust this value depending on the height of your navbar */
+  overflow-x: hidden;
+}
+
+
+    .row1{
+      background-color: #dcf0c5; /* Light blue background */
+      color: #f86767; /* Text color */
+    }
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 40px 0;
+  }
+  .footer .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .footer .footer-links a:hover {
+    color: #007bff;
+  }
+  .footer .social-icons a {
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  .footer .social-icons a:hover {
+    color: #007bff;
+  }
+  .footer-bottom {
+    background-color: #23272b;
+    padding: 20px 0;
+    text-align: center;
+    color: #bbbbbb;
+  }
+.img-fluid6{
+
+    width: 80%;
+}
+
+
+/* Custom styles for the section */
+.scholarship-section {
+    background-color: #ffcc00; /* Bright yellow background */
+    color: #333; /* Dark text for contrast */
+    padding: 50px 0;
+  }
+
+  .scholarship-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff; /* White text */
+  }
+
+  .scholarship-info {
+    font-size: 1.2rem;
+    color: #fff; /* White text for description */
+  }
+
+  .scholarship-btn {
+    background-color: #0066cc; /* Blue button */
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .scholarship-btn:hover {
+    background-color: #004c99; /* Darker blue on hover */
+  }
+/* About Us Section */
+.about-us-section {
+  background-color: #f9f9f9;
+}
+
+.about-us-image {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.about-us-image img {
+  width: 100%;
+  height: 50%;
+  transition: transform 0.5s ease;
+}
+
+.about-us-image img:hover {
+  transform: scale(1.1);
+}
+
+.about-us-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.counter-card {
+  width: 150%;
+  margin: 10px;
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.col-md-6{
+
+  margin-top: 80px !important;
+}
+
+.counter-card i {
+  margin-bottom: 10px;
+}
+
+.counter-card h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.counter {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  background-color: #f9f9f9;
+}
+
+.testimonial-carousel {
+  padding: 20px;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.testimonial-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.testimonial-title {
+  font-size: 14px;
+  color: #666;
+}
+/* Mission and Vision Section */
+.mission-vision-section {
+  background-color: #b0e2a7;
+}
+
+.mission-card, .vision-card {
+  background-color: #c69090;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mission-card h3, .vision-card h3 {
+  margin-bottom: 10px;
+}
+
+.mission-card p, .vision-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.mission-card i, .vision-card i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Map Section */
+.map-section {
+  background-color: #f9f9f9;
+}
+
+.map-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/* FAQs Section */
+.faqs-section {
+  background-color: #f9f9f9;
+}
+
+.card-header {
+  background-color: #fff;
+}
+
+.card-header button {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.card-body {
+  font-size: 16px;
+  color: #666;
+}
+
+
+/* Hero Section */
+.hero-section {
+  background-color: #f9f9f9;
+  background-image: linear-gradient(to bottom, #33ccff 0%, #66ffff 100%);
+  background-size: 100% 300px;
+  background-position: 0% 100%;
+}
+
+.hero-section h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.hero-section .btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.hero-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Introduction/Overview Section */
+.intro-section {
+  background-color: #f9f9f9;
+}
+
+.intro-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.intro-section p {
+  font-size: 18px;
+  color: #666;
+}
+
+.intro-section img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.intro-section h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.intro-section ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.intro-section li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.intro-section .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+
+
+/* Customize input field borders */
+.form-control {
+  text-align: center;
+  width: 100px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+#contact .btn {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+#contact .btn:hover {
+  background-color: #0056b3;
+}
+.map-container{
+margin: 30px;
+height: 20px;
+margin-left: 50px;
+}

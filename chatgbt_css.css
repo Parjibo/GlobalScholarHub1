@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #1e3d59;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.home {
+    background-image: url('study-abroad-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #1e3d59;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.about, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #1e3d59;
+    color: white;
+    padding:
+}
